@@ -1,0 +1,91 @@
+.testimonials {
+  max-width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.testimonialsArea {
+  max-width: 76%;
+  min-height: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.testimonialsTitle {
+  font-family: "Spline Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+  /* identical to box height */
+
+  color: #432f1a;
+}
+
+.testimonialsHeading {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.75rem;
+  line-height: 10rem;
+  /* identical to box height */
+
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+
+  color: #7f5837;
+}
+
+.testimonialsRow {
+  display: flex;
+  padding-bottom: 4rem;;
+}
+
+.testimonial {
+  width: 33.33%;
+  padding: 1rem;
+}
+
+.testimonialContent {
+  font-family: "Spline Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.testimonialAuthor {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.authorImg {
+  width: 25%;
+  margin-right: 2rem;
+}
+
+.authorDetails {
+  width: 60%;
+  text-align: left;
+}
+
+.authorName {
+  font-family: "Spline Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.testimonial:nth-child(2) {
+  border: 0.3rem solid #7F5837;
+}
