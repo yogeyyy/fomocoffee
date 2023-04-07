@@ -1,25 +1,20 @@
 import './App.css';
 import Navbar from './components/header/Navbar'
-import Home from './components/home/Home'
-import About from './components/home/About'
-import Types from './components/home/Types'
-import Shopping from './components/Shop/Shopping'
-import Customize from './components/experience/Customize'
-import Photos from './components/experience/Photos'
-import Testimonials from './components/experience/Testimonials'
+import Maincomp from './Maincomp'
 import Footer from './components/footer/Footer'
+import SignIn from './components/SignIn_SignUp/SignIn'
+import SignUp from './components/SignIn_SignUp/SignUp'
+import {Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <>
     <Navbar />
-    <Home />
-    <About />
-    <Types />
-    <Shopping />
-    <Customize />
-    <Photos />
-    <Testimonials />
+    <Routes>
+      <Route path="/" element={<Maincomp />} />
+      <Route path="/login" element={<SignIn />} />
+      <Route path="/register" element={<SignUp />}/>
+    </Routes>
     <Footer />
     </>
   );

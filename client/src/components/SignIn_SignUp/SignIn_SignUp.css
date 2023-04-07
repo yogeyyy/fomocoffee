@@ -1,0 +1,63 @@
+.signin {
+  min-height: 36rem;
+  max-width: 100%;
+  position: relative;
+  top: 4rem;
+  padding-top: 4rem;
+  background-color: #bfa17f;
+}
+
+.signinArea {
+  position: relative;
+  width: 64%;
+  min-height: 25rem;
+  background-color: red;
+  margin: auto;
+  display: flex;
+  
+}
+
+.signinBox {
+  width: 50%;
+  background-color: white;
+}
+
+.signinContents {
+  margin: auto;
+  text-align: center;
+}
+
+.signinHeading {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  color: #533727;
+}
+
+.signupBox {
+  width: 50%;
+  background-color: #5e3f2c;
+}
+
+.socialAuth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.oauthButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #533727;
+}

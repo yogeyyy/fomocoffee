@@ -8,16 +8,16 @@ function Navbar() {
     <div className="navbar">
       <div className="headerNavLeft">
         <div className="headerOption">
-          <span className="headerOptionLine1">Home</span>
+          <p className="headerOptionLine1">Home</p>
         </div>
         <div className="headerOption">
-          <span className="headerOptionLine1">About</span>
+          <p className="headerOptionLine1">About</p>
         </div>
         <div className="headerOption">
-          <span className="headerOptionLine1">Shopping</span>
+          <p className="headerOptionLine1">Shopping</p>
         </div>
         <div className="headerOption">
-          <span className="headerOptionLine1">Customize</span>
+          <p className="headerOptionLine1">Customize</p>
         </div>
       </div>
       <div className="headerNavMiddle">
@@ -27,13 +27,13 @@ function Navbar() {
       </div>
       <div className="headerNavRight">
         <div className="headerOption">
-          <span className="headerOptionLine1">Photos</span>
+          <p className="headerOptionLine1">Photos</p>
         </div>
         <div className="headerOption">
-          <a href="#testimonialSection"><span className="headerOptionLine1">Testimonials</span></a>
+          <a href="#testimonialSection"><p className="headerOptionLine1">Testimonials</p></a>
         </div>
         <div className="headerOption">
-          <span className="headerOptionLine1">Sign in</span>
+          <p className="headerOptionLine1">Sign in</p>
         </div>
         <div className="headerOption">
           <Badge badgeContent={4} color="primary">
