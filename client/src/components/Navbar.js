@@ -7,9 +7,11 @@ function Navbar() {
   return (
     <Container>
       <Inner>
-        <Logo>
-          <img src="./fomologo.svg" alt="fomo logo" />
-        </Logo>
+        <a href="/">
+          <Logo>
+            <img src="./fomologo.svg" alt="fomo logo" />
+          </Logo>
+        </a>
       </Inner>
       <RightContainer>
         <NavButton>
@@ -47,6 +49,7 @@ const Container = styled.div`
   align-items: center;
   background: #5e3f2c;
   position: fixed;
+  top: 0;
   z-index: 100;
   border-bottom: 2px solid #bfa17f;
   justify-content: space-between;
